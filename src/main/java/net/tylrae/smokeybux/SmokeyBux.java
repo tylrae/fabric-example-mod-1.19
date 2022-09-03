@@ -1,6 +1,7 @@
 package net.tylrae.smokeybux;
 
 import net.fabricmc.api.ModInitializer;
+import net.tylrae.smokeybux.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +13,7 @@ public class SmokeyBux implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItems.registerModItems();
 
 	}
 }
